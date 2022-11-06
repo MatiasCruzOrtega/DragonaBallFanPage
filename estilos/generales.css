@@ -1,0 +1,11 @@
+body {
+  background-image: url("../img/backgrounddos.jpg");
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show > .nav-link {
+  color: #212529;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #212529;
+}/*# sourceMappingURL=generales.css.map */

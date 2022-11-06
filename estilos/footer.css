@@ -1,0 +1,42 @@
+footer {
+  padding: 20px;
+  margin-bottom: -10px;
+  margin-top: 250px;
+  background-color: black;
+  width: 100%;
+}
+
+.iconos {
+  width: 130px;
+  height: 130px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.redes a {
+  padding: 10px;
+  padding-right: 0px;
+}
+
+.barra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.producers {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: -150px;
+}
+
+.logo {
+  width: 200px;
+  height: 130px;
+}/*# sourceMappingURL=footer.css.map */

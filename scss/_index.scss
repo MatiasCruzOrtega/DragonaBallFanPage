@@ -1,0 +1,75 @@
+.seccionuno{
+    width: 100vw;
+    max-width: 1920px;
+    min-width: 320px;
+        img{
+            width: 100%;
+            margin-top: 50px;
+        }
+}
+
+.secciondos{
+        width: 100vw;
+        max-width: 1920px;
+        min-width: 320px;
+            img{
+                width: 100%;
+                margin-top: 500px;
+            }
+}
+
+.secciontres{
+        width: 100vw;
+        max-width: 1920px;
+        min-width: 320px;
+            img{
+                width: 100%;
+                margin-top: 500px;
+            }
+}
+
+
+@media(min-width: 320px){
+    iframe{
+        width: 100%;
+        height: 250px;
+    }
+    .secciondos img{
+        margin-top: 50px;
+        
+    }  
+
+    .secciontres img{
+        margin-top: 50px;
+    }
+    }
+    
+    /*/////////////////////////////////////////////////////////////////////////////////////////((900px))/////////////////////////////////////////////////////////////////////////////////////*/
+    @media(min-width: 768px){
+        iframe{
+            width: 100%;
+            height: 500px;
+        }
+    }
+    /*/////////////////////////////////////////////////////////////////////////////////////////((1900px))/////////////////////////////////////////////////////////////////////////////////////*/
+    
+    @media(min-width: 1900px){
+        .seccionuno iframe{
+            width: 1000px;
+            height: 500px;
+            margin-left: 25%;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            
+        }
+
+        .secciondos iframe{
+            width: 1000px;
+            height: 500px;
+            margin-left: 25%;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+
+    }
+

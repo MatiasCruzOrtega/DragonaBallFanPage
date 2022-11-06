@@ -1,0 +1,55 @@
+.personajesprincipales{
+    width: 90vw;
+    max-width: 1920px;
+    min-width: 320px;
+}
+
+img{
+        width: 100%;
+        margin-top: 250px;
+}
+
+.villanos{
+    width: 90vw;
+    max-width: 1920px;
+    min-width: 320px;
+}
+
+
+@media(min-width: 320px){
+    .titulopersonajes{
+        font-size: 40px;
+    }
+
+    .titulovillanos{
+        font-size: 40px;
+    }
+
+    .btn{
+        margin-top: 3%;
+        margin-left: 30%;
+        background-color: black;
+        border-color: black ;
+        color: orange;
+    }
+    }
+
+@media(min-width: 768px){
+    .titulopersonajes{
+        font-size: 40px;
+    }
+    .btn{
+        margin-left: 40%;
+    }
+}
+
+@media(min-width: 1024px){
+    .titulopersonajes{
+        font-size: 80px;
+    }
+    .btn{
+        margin-left: 50%;
+    }
+
+}
+    

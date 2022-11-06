@@ -1,0 +1,359 @@
+@font-face {
+  font-family: Saiyan-Sans;
+  src: url(../fonts/Saiyan-Sans.ttf);
+}
+body {
+  background-image: url("../img/backgrounddos.jpg");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show > .nav-link {
+  color: #212529;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #212529;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 100px;
+  -webkit-text-stroke: 2px white;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 100px;
+  -webkit-text-stroke: 2px white;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 100px;
+  -webkit-text-stroke: 2px white;
+}
+
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 100px;
+  -webkit-text-stroke: 2px white;
+}
+
+.btn {
+  margin-top: 3%;
+  margin-left: 50%;
+  background-color: black;
+  border-color: black;
+  color: orange;
+}
+
+.seccionuno {
+  width: 100vw;
+  max-width: 1920px;
+  min-width: 320px;
+}
+.seccionuno img {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.secciondos {
+  width: 100vw;
+  max-width: 1920px;
+  min-width: 320px;
+}
+.secciondos img {
+  width: 100%;
+  margin-top: 500px;
+}
+
+.secciontres {
+  width: 100vw;
+  max-width: 1920px;
+  min-width: 320px;
+}
+.secciontres img {
+  width: 100%;
+  margin-top: 500px;
+}
+
+@media (min-width: 320px) {
+  iframe {
+    width: 100%;
+    height: 250px;
+  }
+  .secciondos img {
+    margin-top: 50px;
+  }
+  .secciontres img {
+    margin-top: 50px;
+  }
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////((900px))/////////////////////////////////////////////////////////////////////////////////////*/
+@media (min-width: 768px) {
+  iframe {
+    width: 100%;
+    height: 500px;
+  }
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////((1900px))/////////////////////////////////////////////////////////////////////////////////////*/
+@media (min-width: 1900px) {
+  .seccionuno iframe {
+    width: 1000px;
+    height: 500px;
+    margin-left: 25%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .secciondos iframe {
+    width: 1000px;
+    height: 500px;
+    margin-left: 25%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+.personajesprincipales {
+  width: 90vw;
+  max-width: 1920px;
+  min-width: 320px;
+}
+
+img {
+  width: 100%;
+  margin-top: 250px;
+}
+
+.villanos {
+  width: 90vw;
+  max-width: 1920px;
+  min-width: 320px;
+}
+
+@media (min-width: 320px) {
+  .titulopersonajes {
+    font-size: 40px;
+  }
+  .titulovillanos {
+    font-size: 40px;
+  }
+  .btn {
+    margin-top: 3%;
+    margin-left: 30%;
+    background-color: black;
+    border-color: black;
+    color: orange;
+  }
+}
+@media (min-width: 768px) {
+  .titulopersonajes {
+    font-size: 40px;
+  }
+  .btn {
+    margin-left: 40%;
+  }
+}
+@media (min-width: 1024px) {
+  .titulopersonajes {
+    font-size: 80px;
+  }
+  .btn {
+    margin-left: 50%;
+  }
+}
+.containerSeries {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.containerMovies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.card-img-top {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+@media (min-width: 320px) {
+  .containerSeries {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+  }
+  .tituloserie {
+    margin-left: 45%;
+  }
+  .containerMovies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+  }
+  .contenedorcarrouselseries {
+    display: none;
+  }
+  .titulopeliculas {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .containerSeries {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15%;
+  }
+  .tituloserie {
+    margin-left: 5%;
+  }
+  .containerMovies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15%;
+  }
+}
+@media (min-width: 1024px) {
+  .containerSeries {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 0px;
+  }
+  .containerMovies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 0px;
+  }
+  .contenedorcarrouselseries {
+    display: inline;
+  }
+}
+h1 {
+  font-size: 80px;
+}
+
+.noticia1 {
+  background-color: white;
+  margin-top: 50px;
+}
+
+.noticia1 img {
+  margin-top: 50px;
+  margin-left: 15%;
+  width: 70%;
+}
+
+.noticia1 p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+@media (min-width: 320px) {
+  h1 {
+    font-size: 30px;
+  }
+  .contenedorcarrouselnoticias {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 80px;
+  }
+  .contenedorcarrouselnoticias {
+    display: inline;
+  }
+}
+.contendorssj1 {
+  background-color: white;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+footer {
+  margin-bottom: 0;
+  margin-top: 250px;
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.iconos {
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.redes a {
+  padding: 10px;
+  padding-right: 0px;
+}
+
+.producers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -240px;
+}
+
+.logo {
+  width: 8rem;
+  height: 5rem;
+}/*# sourceMappingURL=styles.css.map */
